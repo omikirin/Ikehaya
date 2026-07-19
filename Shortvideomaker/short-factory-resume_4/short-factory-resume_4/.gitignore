@@ -1,0 +1,5 @@
+node_modules/
+work/
+out/
+assets/.fal_key
+scripts/__pycache__/

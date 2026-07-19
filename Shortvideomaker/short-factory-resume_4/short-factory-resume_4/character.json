@@ -1,0 +1,160 @@
+{
+  "canvas": {
+    "width": 640,
+    "height": 1094
+  },
+  "images": {
+    "body": "uka.png",
+    "head": "uka.png"
+  },
+  "mouth": {
+    "cx": 321,
+    "top": 248,
+    "fill": "#8a3d3d",
+    "tongue": "#e8868f",
+    "line": "#4a2f1e"
+  },
+  "eyes": [
+    {
+      "cx": 287,
+      "cy": 221
+    },
+    {
+      "cx": 357,
+      "cy": 219
+    }
+  ],
+  "eyePatch": {
+    "rx": 24,
+    "ry": 30,
+    "color": "#fdeacd"
+  },
+  "cheeks": [
+    {
+      "cx": 277,
+      "cy": 250
+    },
+    {
+      "cx": 364,
+      "cy": 250
+    }
+  ],
+  "cheekColor": "#f2a0a8",
+  "headPivot": {
+    "x": 320,
+    "y": 324
+  },
+  "covers": [
+    {
+      "cx": 322,
+      "cy": 253,
+      "rx": 17,
+      "ry": 8,
+      "color": "#fdeacd",
+      "show": "always"
+    },
+    {
+      "cx": 292,
+      "cy": 193,
+      "rx": 15,
+      "ry": 7,
+      "color": "#fdeacd",
+      "rot": 39,
+      "show": "brow",
+      "pair": 1
+    },
+    {
+      "cx": 350,
+      "cy": 193,
+      "rx": 15,
+      "ry": 7,
+      "color": "#fdeacd",
+      "rot": -39,
+      "show": "brow",
+      "pair": 1
+    }
+  ],
+  "faceTune": {
+    "sternBrow": {
+      "w": 5
+    },
+    "sadBrow": {
+      "w": 2,
+      "p": [
+        [
+          0,
+          25
+        ],
+        [
+          8,
+          30
+        ],
+        [
+          8,
+          29
+        ]
+      ]
+    },
+    "seriousBrow": {
+      "w": 2,
+      "p": [
+        [
+          4,
+          26
+        ],
+        [
+          -1,
+          36
+        ],
+        [
+          -4,
+          37
+        ]
+      ]
+    },
+    "smileEye": {
+      "w": 5,
+      "p": [
+        [
+          1,
+          -7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          -4,
+          -5
+        ]
+      ]
+    },
+    "closedMouth": {
+      "w": 2
+    },
+    "blinkLine": {
+      "w": 4,
+      "p": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    }
+  },
+  "mouthScale": 0.3,
+  "eyeScale": 0.45,
+  "displayHeight": 760,
+  "faceCenterRatio": 0.2,
+  "browColor": "#ea9f4c",
+  "browLineColor": "#8a5a20",
+  "browLineWidth": 2
+}

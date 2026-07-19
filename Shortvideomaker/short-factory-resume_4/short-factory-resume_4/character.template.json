@@ -1,0 +1,33 @@
+{
+  "_comment": "キャラ設定テンプレート。REPLACE:をすべて自分のキャラの実測値に差し替える。計測手順は references/character-rig.md。数値の単位はキャラ画像のネイティブピクセル座標。",
+  "canvas": { "width": "REPLACE:画像の幅px(例:600)", "height": "REPLACE:画像の高さpx(例:900)" },
+  "images": {
+    "body": "REPLACE:胴体画像のファイル名(public/に置く。例:char-body.png)",
+    "head": "REPLACE:頭画像のファイル名(口は描かない。例:char-head.png)",
+    "eyeLid": "任意:瞼パッチ画像。無ければこのキーごと削除(楕円塗りで代用される)",
+    "bodyPoint": "任意:指差しポーズ差分。無ければ削除",
+    "bodyOpen": "任意:両手広げポーズ差分。無ければ削除",
+    "handPoint": "任意:指差しの手前面レイヤー。無ければ削除",
+    "hookBase": "任意:numberフック下端用の全身絵。無ければ削除"
+  },
+  "mouth": {
+    "cx": "REPLACE:口の中心X(例:300)",
+    "top": "REPLACE:開いた口の上端Y(例:450)",
+    "fill": "#9c4550",
+    "tongue": "#e8868f",
+    "line": "#1c1c1c"
+  },
+  "eyes": [
+    { "cx": "REPLACE:左目の中心X", "cy": "REPLACE:左目の中心Y" },
+    { "cx": "REPLACE:右目の中心X", "cy": "REPLACE:右目の中心Y" }
+  ],
+  "eyePatch": { "rx": 42, "ry": 30, "color": "REPLACE:肌色(白目を隠す塗り色。例:#fdedd3)" },
+  "cheeks": [
+    { "cx": "REPLACE:左頬X", "cy": "REPLACE:左頬Y" },
+    { "cx": "REPLACE:右頬X", "cy": "REPLACE:右頬Y" }
+  ],
+  "cheekColor": "#ef9aa2",
+  "headPivot": { "x": "REPLACE:首の付け根X(頷きの回転軸)", "y": "REPLACE:首の付け根Y" },
+  "displayHeight": 620,
+  "faceCenterRatio": 0.32
+}

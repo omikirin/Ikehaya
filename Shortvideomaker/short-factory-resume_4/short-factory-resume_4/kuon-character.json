@@ -1,0 +1,104 @@
+{
+  "canvas": {
+    "width": 1301,
+    "height": 1024
+  },
+  "images": {
+    "body": "body.png",
+    "head": "head.png"
+  },
+  "mouth": {
+    "cx": 666,
+    "top": 368,
+    "fill": "#8a3d4a",
+    "tongue": "#e8868f",
+    "line": "#2a2438"
+  },
+  "eyes": [
+    {
+      "cx": 604,
+      "cy": 292
+    },
+    {
+      "cx": 735,
+      "cy": 322
+    }
+  ],
+  "eyePatch": {
+    "rx": 42,
+    "ry": 30,
+    "color": "#fdddc6"
+  },
+  "cheeks": [
+    {
+      "cx": 598,
+      "cy": 342
+    },
+    {
+      "cx": 740,
+      "cy": 356
+    }
+  ],
+  "cheekColor": "#f2a0a8",
+  "headPivot": {
+    "x": 663,
+    "y": 470
+  },
+  "displayHeight": 760,
+  "faceCenterRatio": 0.32,
+  "covers": [],
+  "mouthScale": 1.05,
+  "eyeScale": 1.0,
+  "faceTune": {
+    "sternBrow": {
+      "w": 11,
+      "p": [
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ]
+      ]
+    },
+    "sadBrow": {
+      "w": 11,
+      "p": [
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ]
+      ]
+    },
+    "seriousBrow": {
+      "w": 10,
+      "p": [
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ]
+      ]
+    },
+    "closedMouth": {
+      "w": 8
+    }
+  }
+}

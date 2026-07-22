@@ -3,6 +3,7 @@ import { Composition } from 'remotion';
 import { CharacterShort } from './CharacterShort';
 import kuonChar from '../kuon-character.json';
 import ukaChar from '../character.json';
+import { CharacterShortWide } from './CharacterShortWide';
 import * as kuon from './cues/saikishi-kuon';
 import * as uka from './cues/uka-sora';
 
@@ -35,6 +36,23 @@ export const RemotionRoot: React.FC = () => (
       defaultProps={{
         title: uka.title,
         audioSrc: 'voice-uka.m4a',
+        character: ukaChar,
+        cues: uka.cues,
+        scenes: uka.scenes,
+        bgmSrc: 'bgm-uka.wav',
+        aiVoiceLabel: '声と画像の一部はAIで生成しています',
+      }}
+    />
+    <Composition
+      id="uka-sora-wide"
+      component={CharacterShortWide}
+      durationInFrames={Math.round((56.3 + 3.0) * 30)}
+      fps={30}
+      width={1920}
+      height={1080}
+      defaultProps={{
+        title: uka.title,
+        audioSrc: 'voice-uka.wav',
         character: ukaChar,
         cues: uka.cues,
         scenes: uka.scenes,

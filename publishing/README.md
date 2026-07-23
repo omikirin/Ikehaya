@@ -10,8 +10,14 @@ Claude スキル + スクリプトで一気通貫に回すためのパイプラ�
 /book-write  章ごとの原稿執筆        → books/<slug>/manuscript/NN_*.md
 /book-edit   校正・推敲・表記統一     → 原稿を直接修正 + 校正レポート
 /book-build  EPUB生成 + 機械検収     → build/<slug>.epub + 検収レポート
+/editor-review 編集査読(採点+改稿指示+判定) → editorial/reports/<slug>.md
+/editor-fix    改稿+再検収              → 原稿更新+改稿記録
 /book-launch KDP入稿手順 + 販促素材   → 入稿チェックリスト・告知文・LP骨子
 ```
+
+編集部の基準は `publishing/editorial/RUBRIC.md`。査読状況の一覧は
+`python3 publishing/scripts/editorial_status.py` で確認できる。
+判定がGO(または条件消化)になるまで /book-launch に進まない。
 
 各スキルは `.claude/skills/` にあり、Claude Code 上で `/book-plan` のように呼ぶ。
 

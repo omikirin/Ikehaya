@@ -1,17 +1,23 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+title: "風の正宗 少年忍び風太、一人前への六夜"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  名刀正宗を継いだ雑賀の少年・風太。自慢は誰よりも速い逃げ足だけ。祖父の遺刀は重く、風遁の術は逃げるためにしか使えない。そんな少年の前に現れたのは、隻眼の老剣客・疾風斎。「儂から逃げ切ってみせよ」——奇妙な弟子入りから始まる修行の日々。だが里には野盗くずれの抜け忍の影が忍び寄り、封じられた悪霊・百嵐が目覚める。逃げるための風を、守るための風へ。少年剣士の王道成長バトル、全6話。本作はCryptoNinja二次創作小説です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 二次創作
+  - 忍者
+  - 少年剣士
+  - 成長物語
+  - 和風ファンタジー
+categories:
+  - 文学・評論 > 小説 > ファンタジー
+  - 文学・評論 > 小説 > アクション
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

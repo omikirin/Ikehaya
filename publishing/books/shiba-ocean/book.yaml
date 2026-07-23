@@ -1,17 +1,23 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+title: "潮騒の忍犬 柴、海を駆ける"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  ふだんは犬の姿で暮らす雑賀の忍・柴(シバ)。流れ着いた漁村「汐鳴の浦」で穏やかな日々を過ごしていたある夜、海賊「鱶鰭一味」の魔の手が村に迫る。柴は忍術で人型に変化し、水遁と空手を武器に立ち上がった。しかし海の上では勝手が違う。幻の霧に敗れ荒海に沈んだ柴を拾ったのは、海賊狩りの首領・孫市だった。潮を読み、波を纏い、柴は再び立つ。大時化の夜、村人たちと共に挑む総力戦、そして水中での頭目との決戦。波と潮の匂いに満ちた、明朗快活な海洋忍者活劇。本作はCryptoNinja二次創作小説です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 忍者
+  - 海洋冒険
+  - 二次創作
+  - 柴
+  - 水遁
+categories:
+  - 文学・評論 > アクション・冒険
+  - ライトノベル
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

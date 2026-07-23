@@ -1,17 +1,23 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+title: "火群のうた 焙烙玉職人・雛之丞"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  雑賀の里の焙烙玉職人・雛之丞。硝石を挽き、火薬を練り、戦いのための玉を焼く毎日のなか、師・玄爺の死が彼に未完の帳面「祝い火」を遺した。殺すための火しか知らない手で、祝うための火——花火は作れるのか。里を預かる弁天から川開きの祭りの大花火を頼まれた雛之丞は、失敗を重ね、悪鬼「灰喰い」の襲撃で工房まで失う。それでも星を掛け、玉を貼り、導火を見極めて、彼は祭りの夜空にただ一発の大輪を賭ける。ものづくりの工程を丁寧に描く職人お仕事もの。本作はCryptoNinja二次創作小説です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 雛之丞
+  - 忍者小説
+  - 職人
+  - 花火
+  - 二次創作
+categories:
+  - 文学・評論 > 歴史・時代小説
+  - ライトノベル
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

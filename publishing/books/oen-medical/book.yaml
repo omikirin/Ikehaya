@@ -1,17 +1,23 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+title: "糸のむこうの脈 おえん里巡り療治帖"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  糸で脈を診る忍術「糸脈」と、薬箱の笈を背負い、里から里へ——雑賀の生まれで甲賀に学ぶ若き旅医者おえんの、一話一患者の連作人情医療譚。炭焼きの咳、食を絶った宿場の娘、偽薬の流言、そして「診ても治さぬ」謎の隠居医。治せる病を治しながら、おえんはやがて治せない病の前に立たされる。医者にできることは、薬か、それとも——。糸のむこうに人がいる。静かに沁みる、江戸情緒ただよう全六話。本作はCryptoNinja二次創作作品です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - おえん
+  - 二次創作
+  - 人情
+  - 時代小説
+  - 医療
+categories:
+  - 文学・評論 > 時代小説
+  - 文学・評論 > ライトノベル
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

@@ -1,17 +1,24 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+# 書誌メタデータ
+title: "腐れ屋呂屯 毒にて候"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  「言っとくが、俺は悪党だ」——風魔クランの毒使い・呂屯(ロットン)。首領格アトザの部下として、誰もやりたがらない汚れ仕事を請け負う裏稼業「腐れ屋」を営んでいる。だが困ったことに、この男、悪ぶるほどに善行が漏れる。報酬は芋三本、毒はなぜか殺さない濃度。ある日、宿場を偽薬と借金証文で締め上げる商人一味「宵蔵一家」の後始末が舞い込んだ。毒霧に喉を灼かれ、悪党を演じ損ね、それでも彼は悪党のやり方で片を付ける——悪名を、全部ひとりで被って。汚れ仕事の裏に隠れた不器用な忠義と人情を描く、ダークコメディ・ピカレスク全6話。本書はCryptoNinja二次創作作品です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 呂屯
+  - 忍者小説
+  - ピカレスク
+  - 二次創作
+  - ダークコメディ
+categories:
+  - 文学・評論 > アクション
+  - 文学・評論 > ユーモア
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

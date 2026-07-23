@@ -1,17 +1,24 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+# 書誌メタデータ
+title: "漆黒の桜 岩爺根の国封印秘録"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  戦乱の時代——里の外れに口を開けた根の国の裂け目から、人の負の念が澱となった「虚」が溢れ出す。甲賀の若き幻術師・巌は、術を使うたび大切な記憶の色を失う「幻術・漆黒」の代償に怯えながら、薬師の妻・桜と静かに暮らしていた。だが虚の脅威は里を呑み、敵対していた風魔の首領アトザとの停戦、そして共闘へと巌を押し出していく。封印の法「五色の結界」に必要なのは、帰り道を灯す者の命脈。名乗り出たのは、桜だった——。のちに「岩爺」と呼ばれる男の若き日、犠牲と誓いを描く歴史大河。公式の未確定メモ「岩爺の若い頃・妻『桜』案」に想を得た、CryptoNinja二次創作小説です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 二次創作
+  - 忍者
+  - 岩爺
+  - 歴史大河
+  - ファンタジー
+categories:
+  - 文学・評論 > ファンタジー
+  - 文学・評論 > 歴史・時代小説
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

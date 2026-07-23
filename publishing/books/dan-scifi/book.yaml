@@ -1,17 +1,23 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+title: "星より落ちし刃 閃光の忍・断"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  忍の世界に、ただ一人「光の刃」を持つ男がいた。風魔クランの幹部・断。誰の術も通じぬ影の獣が里を襲った夜、その閃光刀だけが闇を裂いた。なぜ自分の刀だけが光るのか——首領アトザが明かしたのは、天から星が落ちた夜、窪地で光る刀を抱いて眠っていた赤子こそが断だったという過去。出自の謎を追って星窪へ向かった断を待つのは、同じ星の欠片を腕に宿す傀儡師・玄夜と、影の獣の大群だった。力の代償に腕を灼かれ、敗北に膝をつきながら、断は問い続ける。この光は、奪うためのものか、守るためのものか。スピードと光で駆け抜けるSF風忍者活劇。本作はCryptoNinja二次創作小説です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 断
+  - 忍者
+  - SFアクション
+  - 二次創作
+  - ライトノベル
+categories:
+  - 文学・評論 > SF・ホラー・ファンタジー
+  - 文学・評論 > アクション
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

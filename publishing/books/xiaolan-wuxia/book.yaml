@@ -1,17 +1,23 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+title: "柔よく剛を制す 甲賀拳士シャオラン伝"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  大陸から嵐の海を越え、甲賀の里に流れ着いた太極拳の拳士シャオラン。師父と交わした「学んだ拳をひとつも殺しに使うな。拳で人を活かせ」という約束を胸に、口寄せの相棒パンダ・リーリーとともに、居候として里の日々を送っていた。だが里の水源を狙う剛拳の武芸集団「黒風老一味」が現れ、その頭目の拳にシャオランは故郷の影を見る。柔よく剛を制す太極拳の理合を核に、受け流し、聴き、そして解き放つ——約束と居場所をめぐる全6話の武侠アクション。ジャッキー映画のようなユーモアも一匙。本書はCryptoNinja二次創作作品です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 二次創作
+  - シャオラン
+  - 武侠
+  - 太極拳
+  - 忍者小説
+categories:
+  - 文学・評論 > アクション
+  - 文学・評論 > ファンタジー
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

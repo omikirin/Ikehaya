@@ -1,17 +1,24 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+# 書誌メタデータ
+title: "逢魔刻の将 アトザ根の国封印戦記"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  戦乱の時代——根の国の軍勢が里の境を破ったとき、風魔クランを率いる長アトザは悟る。この戦は勝ち負けでは計れない。「何人連れて帰れるか」だけが将の器を決めるのだと。毒霧の呂屯、閃光刀の断、巨大化の力を持つ弟アウン。癖の強い部下と弟を束ね、かつて距離のあった甲賀の岩爺と手を結び、アトザは黄昏の境界を操る忍術「逢魔刻」を切り札に、根の国封印の死地へ向かう。指揮官の視点から描く、喪失と決断の全6話戦記。本作はCryptoNinja二次創作小説です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 忍者
+  - 戦記
+  - 二次創作
+  - アトザ
+  - 風魔
+categories:
+  - 文学・評論 > 小説 > ファンタジー
+  - 文学・評論 > 小説 > アクション
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

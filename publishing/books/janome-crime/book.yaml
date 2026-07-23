@@ -1,17 +1,23 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+title: "白蛇は嘘を吐かない 毒使いの忍・蛇ノ目"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  平和な忍びの里・風魔で、薬売りの老人が毒殺された。死者の唇に残るのは蛇毒の痕——疑いの目は、毒手裏剣を操り白蛇オロチを口寄せする忍・蛇ノ目にまっすぐ向けられた。蟄居を命じられ、里じゅうの視線が変わっていくなか、ただ一人「あなたじゃない」と言ってくれたのは、後輩の呪符使いイブキだった。オロチの嗅覚が暴くのは、蛇のふりをした毒。疑われる者の孤独と、信じてくれる一人の重さを描く、無実証明クライムサスペンス。本作はCryptoNinja二次創作小説です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 忍者
+  - 二次創作
+  - クライムサスペンス
+  - ミステリー
+  - 蛇ノ目
+categories:
+  - 文学・評論 > ミステリー・サスペンス
+  - ライトノベル
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

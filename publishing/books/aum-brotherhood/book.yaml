@@ -1,17 +1,24 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+# 書誌メタデータ
+title: "巨人の弟 風魔しんがり譚"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  風魔クランを率いる兄アトザの影で、便利屋のように生きてきた弟アウン。体を巨大化させる「巨人の一撃」を持ちながら、長の器ではない自分に引け目を抱えていた。だが根の国の封印に綻びが生じ、悪鬼・骸嵐が兄の命を狙い始めたとき、アウンは問われる——力はあるが長にはなれない者に、果たすべき役割はあるのか。兄が教えてくれた「呼吸」を胸に、彼が選んだ答えは、退く仲間の背中を守る「殿(しんがり)」だった。無骨で不器用な兄弟の情を描く全6話。本作はCryptoNinja二次創作小説です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 二次創作
+  - 忍者
+  - 兄弟愛
+  - 風魔
+  - ファンタジー小説
+categories:
+  - 文学・評論 > ファンタジー
+  - ライトノベル
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

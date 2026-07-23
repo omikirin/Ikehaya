@@ -1,17 +1,24 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+# 書誌メタデータ
+title: "偽りの太刀筋 狐白変化剣"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  平和な時代の宿場町を、夜ごと辻斬りが襲う。斬られた者の「姿」で歩く下手人——妖刀・空蟬に魅入られた剣客「宵霞」を追うのは、風魔の剣士・狐白。変わり身の術を「一瞬だけ世界を欺く」剣技として磨く彼は、白い狐面の下に、双子の妹・咲耶に言い出せぬ秘密を隠していた。偽りの姿を纏う敵と、偽りでしか立てぬ己。半拍の欺きが交錯する捕物と剣戟の果てに、狐白は本当の顔で朝を迎えられるのか。刀と狐面の美学、疾走感ある殺陣で描く剣戟アクション。本作はCryptoNinja二次創作小説です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 二次創作
+  - 忍者小説
+  - 剣戟アクション
+  - 時代活劇
+  - 狐白
+categories:
+  - 文学・評論 > アクション
+  - ライトノベル > 時代・伝奇
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

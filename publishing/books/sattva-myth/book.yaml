@@ -1,17 +1,24 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+# 書誌メタデータ
+title: "円光の遺灰 天なる忍サットヴァ神話"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  かつて忍であった神サットヴァは、天界の伽藍「白蓮の座」で亡魂を彼岸へ渡す務めを負っていた。だがある夜、渡した魂の一つが、忘れたはずの名を囁く——「小夜」。それは、人であった頃に守れなかった、たった一人の少女の名だった。神の掟に背き地上へ降りたサットヴァを待つのは、供養されぬ死者の嘆きが凝った怨霊「灰帝」。鎮めの術・涅槃を放つたび、人であった頃の記憶が一片ずつ剥がれ落ちていく。神の務めと人の未練、そのはざまで揺れる魂の行方を荘厳な筆致で描く神話幻想譚。本作はCryptoNinja二次創作作品です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 二次創作
+  - 忍者小説
+  - 神話幻想
+  - サットヴァ
+  - ファンタジー
+categories:
+  - 文学・評論 > ファンタジー
+  - 文学・評論 > 歴史・時代小説
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

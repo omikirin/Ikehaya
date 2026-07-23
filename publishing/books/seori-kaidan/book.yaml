@@ -1,17 +1,24 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+# 書誌メタデータ
+title: "丑三つの釘、祓の手 瀬織怪談"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  雨の夜、雑賀の里外れの杜に「人を呪ってほしい」と客が訪れる。受けるのは、祓神の名を持つ忍・瀬織。丑の刻参りの術で釘を打つのが彼女の稼業だ。だがある依頼で標的の家に見つけたのは、七年前に瀬織自身が打ち、抜かれぬまま育った古釘だった。姉と妹、二代の恨みが「合わせ釘」となって家に根を張るとき、呪いを引き受ける側の業が問われる。パートナーのミタマとともに、瀬織は逆さの丑の刻参りで呪いを解きにゆく——。じっとりとした和ホラーで描く、哀しくも静かな怪談。本作はCryptoNinja二次創作小説です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 瀬織
+  - 丑の刻参り
+  - 怪談
+  - 和ホラー
+  - 二次創作
+categories:
+  - ホラー小説
+  - ファンタジー
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

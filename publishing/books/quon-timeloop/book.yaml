@@ -1,17 +1,23 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+title: "猫の目は千の生を視る 久遠異聞"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  幸福な未来を選び取る術「猫の目の選択」を持つ長命の忍・久遠。彼の瞳には、選ばれなかった無数の人生の分岐が「陽炎の路」として視え続けている。平和な雑賀の里で、ある子どもの未来がすべて黒く塗り潰れて視えたとき、久遠は鬼火を掲げ、久しく閉ざしていた路へ渡る。術を捨てた自分、猫又のそばで老いた自分、友を救えなかった自分——選ばなかった千の生を旅するたび、現実の記憶は薄れていく。路の奥で待つ影「虚ろ日」の正体とは。選ぶことの痛みと祝福を描く、切なく哲学的な時間ファンタジー。本書はCryptoNinja二次創作作品です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 久遠
+  - 忍者
+  - 時間ファンタジー
+  - 二次創作
+  - 猫又
+categories:
+  - ファンタジー
+  - ライトノベル
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

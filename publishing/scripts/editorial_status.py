@@ -42,7 +42,7 @@ def main():
             print(f"{r['slug']:24s} {r['verdict']:12s} {r['score']:20s} 査読{r['round']}回 P1:{r['p1_open']} 改稿:{'済' if r['revised'] else '-'}")
 
     go = sum(1 for r in rows if r["verdict"].startswith("GO"))
-    cond = sum(1 for r in rows if "条件" in r["verdict"])
+    cond = sum(1 for r in rows if r["verdict"].startswith("条件付き"))
     ng = sum(1 for r in rows if r["verdict"] == "NG")
     print(f"\n査読済 {len(rows)}/{len(books)} | GO {go} / 条件付きGO {cond} / NG {ng} | 未査読 {len(books) - len(done)}")
     if len(done) < len(books):

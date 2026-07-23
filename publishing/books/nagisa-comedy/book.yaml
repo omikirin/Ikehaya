@@ -1,17 +1,23 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+title: "凪紗、二重登校中。忍術学校かけもち騒動記"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  平和な時代の雑賀の里。口数の少ない密偵見習い・凪紗は、里を仕切る弁天の書類手違いで、雑賀忍術学園と甲賀くのいち塾に二重在籍になってしまう。「間違いです」の一言が言えないまま、得意の影分身で二校同時通学を敢行するが——無口すぎる分身の珍回答、本体と分身の入れ替わり事故、猫又の抜き打ち検査、空腹で半透明になる分身と、綱渡りの日々は加速するばかり。そして迎えた二校同日の修了試験、術はついに満座の中でほどける。だがそのとき凪紗を待っていたのは、思いもよらないあたたかな真実だった。ドタバタの果てに、ほろりと泣ける学園コメディ。本書はCryptoNinja二次創作の小説作品です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 二次創作
+  - 忍者
+  - 学園コメディ
+  - 凪紗
+  - ライトノベル
+categories:
+  - 文学・評論 > ライトノベル
+  - コミック・ラノベ・BL > ライトノベル
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

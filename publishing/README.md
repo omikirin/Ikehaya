@@ -15,6 +15,13 @@ Claude スキル + スクリプトで一気通貫に回すためのパイプラ�
 
 各スキルは `.claude/skills/` にあり、Claude Code 上で `/book-plan` のように呼ぶ。
 
+### 小説モード: /ninja-novel
+
+CryptoNinja 二次創作小説は `/ninja-novel` が入口。ジャンルと主役キャラを選ぶと、
+NINJAMCP から設定・世界観・公式画像(CC0)を取得して `books/<slug>/lore/` に固め、
+上記パイプラインをフィクション仕様(だ・である調、三幕プロット、話数割り)で回し、
+販促は軍配(pro-marketing-director)で検収する。
+
 ## ディレクトリ構成
 
 ```

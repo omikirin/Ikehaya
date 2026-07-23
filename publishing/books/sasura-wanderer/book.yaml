@@ -1,17 +1,24 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+# 書誌メタデータ
+title: "流離のサスラ 境を歩く忍の記"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  根の国を追われた忍・サスラ。地上と地下の狭間「境(あわい)」を流離う彼には、帰る場所がない。影から影へ滑る術「影繰」は、使うほどに己の輪郭と記憶を削っていく。かつての縁である蜘蛛の花魁ささがね、発明家シンラの残した灯り、そして敵として斬り結ぶ里の忍——出会いのすべてが、彼に「帰れない」ことを突きつける。それでもサスラは歩く。帰る場所の不在ごと、己として。喪失と受容を描く全6話のロードノベル。本作はCryptoNinja二次創作作品です。サスラの忍術・武器など公式未設定の部分は本作独自の解釈で補っています。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 二次創作
+  - 忍者小説
+  - 根の国
+  - サスラ
+  - ロードノベル
+categories:
+  - 文学・評論 > 日本の小説
+  - ライトノベル
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

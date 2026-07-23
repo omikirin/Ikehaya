@@ -1,17 +1,24 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+# 書誌メタデータ
+title: "澱の発明家 シンラ 根の国綺譚"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  人々が捨てた悔恨、嫉妬、恐怖——負の感情は澱となって地の底へ流れ落ち、封印された異界「根の国」に溜まっていく。その澱から生まれた発明家の忍者シンラは、澱を材料に器械を組みながら、自分を生んだ「一人分の悔恨」の主を探し続けていた。封印の綻びから漏れ聞こえた少女の泣き声。その悔恨は、シンラ自身の核と同じ味がした。己の存在の根を知ったとき、シンラは「在り続けること」と「還すこと」のどちらを選ぶのか。負の感情を糧とする存在の生と救いを、具体的な事件と情景で描く哲学ダークファンタジー。本作はCryptoNinja二次創作小説です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 二次創作
+  - シンラ
+  - 根の国
+  - ダークファンタジー
+  - 忍者小説
+categories:
+  - 文学・評論 > ファンタジー
+  - ライトノベル
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

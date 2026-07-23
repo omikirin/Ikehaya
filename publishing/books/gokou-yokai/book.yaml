@@ -1,17 +1,24 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+# 書誌メタデータ
+title: "地の底の百鬼、百足の忍ゴコウ奇譚"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  岩爺とアトザらの手で封印された異界「根の国」。その地の底では、百足の忍ゴコウが百鬼の名を記した帳面を預かり、夜ごと巡る百鬼夜行の秩序を守っていた。だがある夜、名を呼ばれても答えぬ鬼が現れる。その名は帳面から墨ごと消えていた——。名を喰う形なき怪異「虚蟲」を追うゴコウは、封印の傷跡に澱んだ負の淀みと対峙し、やがて己の名までも喰われ始める。蜘蛛の同輩ささがねの糸を借り、百の足で夜の秩序を支え直す妖怪奇譚。本作はNFTコレクション「CryptoNinja」の二次創作小説です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 二次創作
+  - 忍者
+  - 妖怪
+  - 百鬼夜行
+  - ゴコウ
+categories:
+  - 文学・評論 > ファンタジー
+  - ライトノベル > 和風ファンタジー
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

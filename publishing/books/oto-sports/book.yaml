@@ -1,17 +1,24 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+# 書誌メタデータ
+title: "兎は月を独りで跳ぶ 御前試合の於兎"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  天才と呼ばれた少女は、勝つたびに独りになっていく——。平和な時代の忍びの里で年に一度開かれる、クラン対抗の御前試合。甲賀の口寄せ使い・於兎は、兎を喚ぶ巻物ひとつで無敗のまま勝ち上がる。だが歓声は日ごとに遠くなり、かつて友だったライバル・宇迦の九尾の焔だけが、彼女の胸を焦がしていた。追う者と追われる者、二つの孤独が決勝の舞台で激突するとき、於兎は初めて「勝敗の先にあるもの」を知る。熱く、そして爽やかなスポ根忍法帖。本作はCryptoNinja二次創作作品です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 二次創作
+  - 忍者
+  - スポ根
+  - ライバル
+  - 御前試合
+categories:
+  - 文学・評論 > アクション
+  - ライトノベル
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

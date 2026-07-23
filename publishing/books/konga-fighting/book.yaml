@@ -1,17 +1,24 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+# 書誌メタデータ
+title: "拳輪の忍コンガ 影と殴り合う漢の拳闘譚"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  甲賀の里で、くのいちたちを教えるコーチの忍・コンガ。かつて力任せの拳で仲間を守れなかった男は、拳を仕舞い、教えることに生きていた。だが宿場町に現れた無敵の用心棒・鵺垣玄骨が弟子を傷つけたとき、コンガは再び拳を握る——そして完敗する。届かぬ拳の理由は、おのれ自身の迷い。彼は影分身の術に懸け、自分自身と殴り合うという前代未聞の修行を発明する。おのれの癖と、逃げと、後悔を殴り倒した先に待つ再戦。素手のみで戦う漢の、単純で真っ直ぐで、泣ける熱血格闘譚。本作はCryptoNinja二次創作小説です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 忍者
+  - 二次創作
+  - 熱血
+  - 格闘
+  - 影分身
+categories:
+  - 文学・評論 > アクション
+  - 文学・評論 > ライトノベル
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

@@ -1,17 +1,24 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+# 書誌メタデータ
+title: "虹文の裏、いろは四十七の謎"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  平和な時代の雑賀の里。伝令を専門とする若き忍イチヤは、「戦えない自分」にひそかな引け目を抱いていた。ある朝、里の旧蔵から二代前の伝令・文吾が遺した古文書が見つかる。記されていたのは五首の和歌——だが、その頭文字は密かな道しるべだった。折句、いろは四十七文字の数合わせ、そして虹の七色の鍵。三層の暗号を解き明かす先に眠る「里の宝」を、流れの盗掘屋まがきが狙う。甲賀から帰省した姉ネムと共に、イチヤは筆一本で謎と敵に立ち向かう。手がかりはすべて本文中に。あなたもイチヤと一緒に解ける、全年齢向けの本格暗号ミステリー。本書はCryptoNinja二次創作作品です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - 二次創作
+  - 忍者小説
+  - 暗号ミステリー
+  - いろは歌
+  - イチヤ
+categories:
+  - 文学・評論 > ミステリー・サスペンス・ハードボイルド
+  - 文学・評論 > ライトノベル
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

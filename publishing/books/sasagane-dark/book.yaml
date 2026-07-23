@@ -1,17 +1,23 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+title: "糸を喰む夜 蜘蛛のささがね奇譚"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  封印された異界・根の国。蜘蛛をモチーフにした花魁風の忍者ささがねは、禿のヤミとヨミを従え、人の想いを喰らわねば形を保てぬ飢えとともに、光の射さぬ庭で永い時を過ごしていた。ある夜、封印の綻びから盲目の糸取り娘・灯里が落ちてくる。喰らうために拾ったはずの少女は、ささがねの糸を「あたたかい」と紡ぎ、その名を呼んだ。飢えを忘れさせる束の間の交流。しかし闇の底では名もなき飢えの澱「虚」が少女の匂いに目を覚ます。少女を人の世へ帰す唯一の代償は、彼女の中の想いの糸をすべて啜り、己を忘れさせること——。人を襲う性と、それでも捨てられなかった一筋の糸。妖異悲哀ダークで描く、封印された側から見た孤独と業の物語。本書はCryptoNinja二次創作小説です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - ささがね
+  - 根の国
+  - 二次創作
+  - 和風ファンタジー
+  - ダークファンタジー
+categories:
+  - 文学・評論 > ファンタジー
+  - 文学・評論 > ホラー
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

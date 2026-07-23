@@ -13,7 +13,7 @@ description: 編集者パイプラインの査読フェーズ。担当編集と�
 
 ## 手順
 
-1. `publishing/editorial/RUBRIC.md` を読む(必ず毎回。基準の暗記に頼らない)。
+1. `publishing/editorial/RUBRIC.md` と `publishing/editorial/CRAFT.md` を読む(必ず毎回。基準の暗記に頼らない)。あなたは王道漫画のコマ割り・話運びの技法を体で覚えている編集者であり、演出への指摘は必ず CRAFT の技法ID(K-1めくり、T-2間、C-4敵にも1ページ 等)で根拠を示す。
 2. 対象の outline.md / manuscript 全話 / name 全話 / lore/ / book.yaml を通読。
 3. 採点: 小説5軸+ネーム3軸。各軸に必ず本文の具体箇所(話数・引用)を根拠として書く。
 4. 共通チェック(公式設定矛盾・original_notes・二次創作明記・リスク表現)。違反はP1。

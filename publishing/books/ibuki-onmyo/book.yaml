@@ -1,17 +1,24 @@
-# 書誌メタデータ — /book-plan で確定させる
-title: "(仮)タイトル"
-subtitle: ""
+# 書誌メタデータ
+title: "いぶき、冥府の帳を繰る 命の帳簿怪異譚"
+subtitle: "CryptoNinja二次創作小説"
 author: "著者名"
 publisher: "出版社名"
 language: ja
 description: |
-  Amazonの商品説明欄に載せる紹介文(200〜800字目安)。
-keywords:            # KDPキーワード最大7つ
-  - キーワード1
-categories:          # KDPカテゴリ(2つまで)
-  - カテゴリ1
-price_jpy: 500       # 希望小売価格(円)
-kdp_select: true     # Kindle Unlimited に入れるか
-cover: cover/cover.jpg
-isbn: ""             # 電子書籍のみなら空でOK
-release_date: ""     # YYYY-MM-DD (未定なら空)
+  寿命を司る秘儀「泰山府君祭」を継ぐ風魔の若き術者イブキには、人の頭上に残りの命が墨の濃淡として視えてしまう。里はずれの府君堂を預かる彼のもとへ、命の灯を吸う灰色の蛾、齢を巻き戻す逆さ暦、死者の声だけを返す谷——六つの怪異が次々と持ち込まれる。その影に見え隠れするのは、命の帳簿の外に落ちた元術者「無戸」。死期の視える里人を前に、若き術者は帳簿を書き換えるのか、それとも読み終えるまで隣にいるのか。相棒ヤーマと歩む、典雅にして怪しき陰陽師怪異連作。本作はCryptoNinja二次創作小説です。
+keywords:
+  - CryptoNinja
+  - クリプトニンジャ
+  - イブキ
+  - 陰陽師
+  - 怪異譚
+  - 和風ファンタジー
+  - 二次創作
+categories:
+  - 文学・評論 > ファンタジー
+  - 文学・評論 > ホラー
+price_jpy: 300
+kdp_select: true
+cover: cover/cover.png
+isbn: ""
+release_date: ""

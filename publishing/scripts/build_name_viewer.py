@@ -132,20 +132,34 @@ h2{margin:0 0 2px;font-size:24px;text-wrap:balance}
   padding:5px 12px;font-size:12.5px;cursor:pointer}
 .tab.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .eptitle{font-size:17px;margin:0 0 14px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}
-.pg{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:0 0 10px;
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.pg{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:0 0 8px;
   box-shadow:0 1px 0 var(--line)}
-.pg.spread{grid-column:1/-1;border-left:4px solid var(--shu)}
+.pg.spread{grid-column:span 2;border-left:4px solid var(--shu)}
+@media(max-width:700px){.pg.spread{grid-column:auto}}
 .pghead{display:flex;align-items:baseline;gap:8px;border-bottom:1px solid var(--line);
   padding:8px 12px;margin-bottom:8px}
 .pgno{font-size:14px;font-weight:700;letter-spacing:.05em}
 .pgtag{font-size:10.5px;color:#fff;background:var(--shu);border-radius:2px;padding:1px 7px;letter-spacing:.15em}
-.koma{display:flex;gap:9px;padding:6px 12px;border-bottom:1px dashed var(--line);font-size:13px}
-.koma:last-child{border-bottom:0}
-.kn{flex-shrink:0;width:22px;height:22px;border:1.5px solid var(--ink);display:flex;
-  align-items:center;justify-content:center;font-size:11px;font-weight:700;margin-top:2px}
+/* 紙面プレビュー: 枠内にコマを実配置(右→左) */
+.sheet{margin:0 12px 8px;background:var(--paper);border:2px solid var(--ink);
+  aspect-ratio:5/7;display:flex;flex-direction:column;gap:4px;padding:5px}
+.pg.spread .sheet{aspect-ratio:10/7}
+.row{display:flex;flex-direction:row-reverse;gap:4px;flex:1;min-height:0}
+.cell{flex:1;border:1.5px solid var(--ink);background:var(--panel);padding:4px 6px;
+  overflow:hidden;position:relative;display:flex;flex-direction:column;min-width:0}
+.cell.big{background:var(--shu-soft)}
+.cell .kn{position:absolute;top:2px;right:4px;font-size:10px;font-weight:700;color:var(--shu)}
+.cell .kt{font-size:10.5px;line-height:1.45;overflow:hidden}
 .kt b{color:var(--shu)}
-.kt .se{color:var(--se);font-family:ui-monospace,Menlo,monospace;font-size:12px}
+.kt .se{color:var(--se);font-family:ui-monospace,Menlo,monospace;font-size:10px}
+details{margin:0 12px}
+details summary{cursor:pointer;font-size:11.5px;color:var(--ink2);padding:2px 0}
+.koma{display:flex;gap:9px;padding:6px 0;border-bottom:1px dashed var(--line);font-size:12.5px}
+.koma:last-child{border-bottom:0}
+.koma .kno{flex-shrink:0;width:22px;height:22px;border:1.5px solid var(--ink);display:flex;
+  align-items:center;justify-content:center;font-size:11px;font-weight:700;margin-top:2px}
+.koma .kt{font-size:12.5px}
 .note{padding:4px 12px;font-size:12px;color:var(--ink2);font-style:italic}
 .hint{color:var(--ink2);font-size:12px;margin:30px 0 0;border-top:1px solid var(--line);padding-top:10px}
 @media(max-width:760px){.app{flex-direction:column}nav{width:100%;height:auto;position:static}}
@@ -188,17 +202,40 @@ function main(){
     +'<div class="tabs">'+b.eps.map((x,i)=>'<button class="tab'+(i===ep?' on':'')+'" onclick="goEp('+i+')">第'+(i+1)+'話</button>').join('')+'</div>'
     +'<h3 class="eptitle serif">'+esc(e.title)+'</h3><div class="grid">';
   for(const p of e.pages){
+    const panels=p.panels.map((k,i)=>{
+      const m=k.match(/^(\d+[a-z]?(?:[-−]\d+)?)\s*[::]\s*(.*)$/);
+      const body=m?m[2]:k;
+      return {no:m?m[1]:String(i+1), body,
+        big:/大ゴマ|ページ大|全面|縦長コマ|横長大|見開き|2\/3/.test(k)||p.spread&&p.panels.length===1,
+        small:/小コマ|隅の小/.test(k)};
+    });
+    // 行組み: 大ゴマは1行独占、それ以外は2コマ/行(右→左)
+    const rows=[];let cur2=null;
+    for(const pn of panels){
+      if(pn.big){rows.push([pn]);cur2=null;}
+      else if(cur2&&cur2.length<2){cur2.push(pn);}
+      else{cur2=[pn];rows.push(cur2);}
+    }
     h+='<div class="pg'+(p.spread?' spread':'')+'"><div class="pghead"><span class="pgno">'+esc(p.head)+'</span>'
       +(p.spread?'<span class="pgtag">見開き</span>':'')+'</div>';
-    p.panels.forEach((k,i)=>{
-      const m=k.match(/^(\d+(?:[-−]\d+)?)\s*[::]\s*(.*)$/);
-      const no=m?m[1]:String(i+1), body=m?m[2]:k;
-      h+='<div class="koma"><div class="kn">'+esc(no)+'</div><div class="kt">'+fmt(body)+'</div></div>';
-    });
+    h+='<div class="sheet">';
+    for(const row of rows){
+      const grow=row.some(x=>x.big)?2.2:(row.some(x=>x.small)?0.8:1);
+      h+='<div class="row" style="flex-grow:'+grow+'">';
+      for(const pn of row){
+        h+='<div class="cell'+(pn.big?' big':'')+'"><span class="kn">'+esc(pn.no)+'</span>'
+          +'<div class="kt">'+fmt(pn.body)+'</div></div>';
+      }
+      h+='</div>';
+    }
+    h+='</div>';
+    h+='<details><summary>コマ指示全文</summary>';
+    for(const pn of panels)h+='<div class="koma"><div class="kno">'+esc(pn.no)+'</div><div class="kt">'+fmt(pn.body)+'</div></div>';
+    h+='</details>';
     for(const n of p.notes)h+='<div class="note">'+fmt(n)+'</div>';
     h+='</div>';
   }
-  h+='</div><p class="hint">右綴じ・右→左読み想定。太字=セリフ/モノローグ、等幅=効果音、朱帯=見開きの山場。原稿は各書籍の name/ep0N.md。</p>';
+  h+='</div><p class="hint">紙面プレビューは右綴じ・右→左読み(各行の右のコマから読む)。薄朱のコマ=大ゴマ、朱帯ページ=見開き。太字=セリフ、等幅=効果音。文字が切れているコマは「コマ指示全文」を開くと読めます。原稿は各書籍の name/ep0N.md。</p>';
   el.innerHTML=h;window.scrollTo(0,0);
 }
 function go(i){cur=i;ep=0;nav();main()}

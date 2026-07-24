@@ -209,13 +209,10 @@ function main(){
         big:/大ゴマ|ページ大|全面|縦長コマ|横長大|見開き|2\/3/.test(k)||p.spread&&p.panels.length===1,
         small:/小コマ|隅の小/.test(k)};
     });
-    // 行組み: 大ゴマは1行独占、それ以外は2コマ/行(右→左)
-    const rows=[];let cur2=null;
-    for(const pn of panels){
-      if(pn.big){rows.push([pn]);cur2=null;}
-      else if(cur2&&cur2.length<2){cur2.push(pn);}
-      else{cur2=[pn];rows.push(cur2);}
-    }
+    // 段組み: 基本3段×1コマ。4コマ以上のページは3段×2コマ(右→左)
+    const perRow=panels.length>=4?2:1;
+    const rows=[];
+    for(let i=0;i<panels.length;i+=perRow)rows.push(panels.slice(i,i+perRow));
     h+='<div class="pg'+(p.spread?' spread':'')+'"><div class="pghead"><span class="pgno">'+esc(p.head)+'</span>'
       +(p.spread?'<span class="pgtag">見開き</span>':'')+'</div>';
     h+='<div class="sheet">';
@@ -235,7 +232,7 @@ function main(){
     for(const n of p.notes)h+='<div class="note">'+fmt(n)+'</div>';
     h+='</div>';
   }
-  h+='</div><p class="hint">紙面プレビューは右綴じ・右→左読み(各行の右のコマから読む)。薄朱のコマ=大ゴマ、朱帯ページ=見開き。太字=セリフ、等幅=効果音。文字が切れているコマは「コマ指示全文」を開くと読めます。原稿は各書籍の name/ep0N.md。</p>';
+  h+='</div><p class="hint">紙面プレビューは右綴じ・右→左読み(各段の右のコマから読む)。段組みは基本3段×1コマ、4コマ以上のページは3段×2コマ。薄朱のコマ=大ゴマ、朱帯ページ=見開き。太字=セリフ、等幅=効果音。文字が切れているコマは「コマ指示全文」を開くと読めます。原稿は各書籍の name/ep0N.md。</p>';
   el.innerHTML=h;window.scrollTo(0,0);
 }
 function go(i){cur=i;ep=0;nav();main()}
